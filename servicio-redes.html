@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalación y Administración de Redes - Skynet Soluciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'skynet-dark': '#0A2463',
+                        'skynet-accent': '#38BDF8',
+                        'skynet-light': '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-slate-800 bg-white font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-skynet-dark">
+                <a href="index.html">Soluciones Informáticas</a>
+            </div>
+            <nav class="flex gap-8 items-center">
+                <a href="index.html#servicios" class="text-skynet-dark font-bold hover:text-skynet-accent transition">Servicios</a>
+                <a href="index.html#contacto" class="bg-skynet-accent text-skynet-dark px-6 py-2 rounded-lg font-semibold hover:bg-sky-400 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative py-20 text-white overflow-hidden">
+            <!-- Background Image with Overlay -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute inset-0 bg-gradient-to-br from-skynet-dark/90 to-skynet-accent/80 z-10"></div>
+                <img src="Redes.jpg" alt="Redes" class="w-full h-full object-cover" onerror="this.style.display='none'">
+            </div>
+            
+            <div class="relative z-20 max-w-4xl mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold mb-6">Instalación y Administración de Redes</h1>
+                <p class="text-xl text-white/90">Soluciones profesionales para conectividad y seguridad de red</p>
+            </div>
+        </section>
+
+        <!-- Description Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-8">Infraestructura de Redes Profesional</h2>
+                <p class="text-lg text-slate-700 mb-6">
+                    Diseñamos, implementamos y administramos infraestructuras de red robustas y seguras. Desde instalación de cableado estructurado hasta configuración de equipos de red y sistemas WiFi empresariales.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">🔌 Cableado Estructurado</h3>
+                        <p class="text-slate-600">Instalación profesional de cableado Cat6, Cat7 y fibra óptica.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">📡 Equipos de Red</h3>
+                        <p class="text-slate-600">Routers, switches, firewalls y equipos profesionales de marca.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">📶 Redes Inalámbricas</h3>
+                        <p class="text-slate-600">Implementación de WiFi 6 con cobertura empresarial.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">🔐 Seguridad</h3>
+                        <p class="text-slate-600">Firewalls, control de acceso y monitoreo de tráfico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Included -->
+        <section class="py-20 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-12">Servicios Disponibles</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🔌 Instalación de Cableado</h3>
+                        <p class="text-slate-600">Diseño y ejecución de infraestructura de cableado profesional.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">⚙️ Configuración de Equipos</h3>
+                        <p class="text-slate-600">Setup y configuración de routers, switches y firewalls.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">📡 Redes Inalámbricas</h3>
+                        <p class="text-slate-600">Implementación de sistemas WiFi con cobertura total.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🛡️ Firewall y Seguridad</h3>
+                        <p class="text-slate-600">Configuración de seguridad perimetral y control de acceso.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">📊 Monitoreo de Red</h3>
+                        <p class="text-slate-600">Sistemas de monitoreo 24/7 y alertas de problemas.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🔧 Mantenimiento Continuo</h3>
+                        <p class="text-slate-600">Soporte técnico permanente y actualizaciones de equipo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plans -->
+        <section class="py-20 bg-white">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-4 text-center">Planes de Redes</h2>
+                <p class="text-lg text-slate-600 text-center mb-12">Infraestructura de red adaptada a tu negocio</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Plan 1: Básico -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Básico</h3>
+                        <p class="text-slate-600 mb-6">Oficinas pequeñas</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">$1,500</span>
+                            <p class="text-slate-600 text-sm mt-2">por instalación</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Cableado Cat6
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Switch 24 puertos
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Wi-Fi básico
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Soporte 3 meses
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Solicitar
+                        </button>
+                    </div>
+
+                    <!-- Plan 2: Premium (Destacado) -->
+                    <div class="bg-white rounded-2xl p-8 border-2 border-skynet-accent shadow-xl transform md:scale-105">
+                        <div class="bg-skynet-accent text-white px-4 py-2 rounded-lg text-center mb-4 text-sm font-semibold">
+                            MÁS POPULAR
+                        </div>
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Premium</h3>
+                        <p class="text-slate-600 mb-6">Empresas medianas</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">$4,000</span>
+                            <p class="text-slate-600 text-sm mt-2">por proyecto</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Cableado Cat7
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Switch administrable + Router
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Wi-Fi 6 empresarial
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Soporte 24/7 por 6 meses
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Solicitar
+                        </button>
+                    </div>
+
+                    <!-- Plan 3: Empresarial -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Empresarial</h3>
+                        <p class="text-slate-600 mb-6">Grandes empresas</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">Personalizado</span>
+                            <p class="text-slate-600 text-sm mt-2">Según requerimientos</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Fibra óptica
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Firewall administrado
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Redundancia completa
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Monitoreo 24/7 permanente
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Cotizar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="py-20 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-12">Por qué elegirnos</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">🏢 Experiencia Empresarial</h3>
+                        <p class="text-slate-700">Años de experiencia en redes corporativas y de misión crítica.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">⚡ Implementación Rápida</h3>
+                        <p class="text-slate-700">Instalación sin interrupciones en operaciones actuales.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">🔒 Alta Disponibilidad</h3>
+                        <p class="text-slate-700">Redes redundantes y confiables con SLA garantizado.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">📈 Escalable</h3>
+                        <p class="text-slate-700">Infraestructura que crece con tu negocio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-gradient-to-br from-skynet-dark to-skynet-accent py-20 text-white">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-6">¿Necesitas una red robusta?</h2>
+                <p class="text-xl text-white/90 mb-8">Potencia tu conectividad con nuestra infraestructura de red</p>
+                <a href="index.html#contacto" class="inline-block bg-white text-skynet-dark px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">
+                    Solicitar Consulta
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-skynet-dark text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <!-- COLUMNA 1: ACERCA DE -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SKYNet Soluciones</h3>
+                    <p class="text-sm text-white/80 mb-6">Soluciones tecnológicas innovadoras para empresas. Tu aliado estratégico en transformación digital.</p>
+                    <div class="flex gap-3">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-skynet-accent hover:text-skynet-dark transition" title="Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-skynet-accent hover:text-skynet-dark transition" title="Twitter">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7s1.1 5.2-7 9"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-skynet-accent hover:text-skynet-dark transition" title="LinkedIn">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/></svg>
+                        </a>
+                        <a href="https://wa.me/2284945696" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-500 transition" title="WhatsApp">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.723.7 5.405 2.03 7.697L3.34 21.593l8.15-2.14c2.208 1.21 4.662 1.847 7.315 1.847 5.342 0 9.8-4.358 9.8-9.8 0-2.6-.5-5.11-1.5-7.467-1-2.356-2.437-4.48-4.235-6.12-1.798-1.642-3.885-2.913-6.115-3.635-2.23-.722-4.585-.948-6.9-.71z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COLUMNA 2: SERVICIOS RÁPIDOS -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Servicios</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="servicio-diseno-web.html" class="text-white/80 hover:text-skynet-accent transition">Diseño Web</a></li>
+                        <li><a href="servicio-mantenimiento.html" class="text-white/80 hover:text-skynet-accent transition">Mantenimiento de Equipos</a></li>
+                        <li><a href="servicio-software.html" class="text-white/80 hover:text-skynet-accent transition">Asesoría y Software</a></li>
+                        <li><a href="servicio-cursos.html" class="text-white/80 hover:text-skynet-accent transition">Capacitación y Cursos</a></li>
+                        <li><a href="servicio-venta-equipos.html" class="text-white/80 hover:text-skynet-accent transition">Venta de Equipos</a></li>
+                        <li><a href="propuesta-polizas-mantenimiento.html" class="text-white/80 hover:text-skynet-accent transition">Pólizas de Mantenimiento</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMNA 3: POS Y VIGILANCIA -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Más Servicios</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="servicio-pos.html" class="text-white/80 hover:text-skynet-accent transition">Sistemas POS</a></li>
+                        <li><a href="servicio-redes.html" class="text-white/80 hover:text-skynet-accent transition">Redes y Conectividad</a></li>
+                        <li><a href="servicio-control-acceso.html" class="text-white/80 hover:text-skynet-accent transition">Control de Acceso</a></li>
+                        <li><a href="servicio-cctv.html" class="text-white/80 hover:text-skynet-accent transition">Videovigilancia CCTV</a></li>
+                        <li><a href="index.html" class="text-white/80 hover:text-skynet-accent transition">Inicio</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMNA 4: CONTACTO DIRECTO -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contacto</h3>
+                    <div class="space-y-4 text-sm">
+                        <p class="text-white/80"><strong>📞 Teléfono:</strong><br>+52 2284945696</p>
+                        <p class="text-white/80"><strong>📧 Email:</strong><br>djdorian82@gmail.com</p>
+                        <p class="text-white/80"><strong>📍 Ubicación:</strong><br>Veracruz, México</p>
+                        <a href="https://wa.me/2284945696?text=Hola%20SKYNet,%20necesito%20ayuda%20con%20mis%20servicios%20tecnol%C3%B3gicos" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition font-semibold text-sm">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zM6.597 20.193c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 4.315 1.919 6.066l-1.225 4.485 4.635-1.218z"/>
+                            </svg>
+                            Chat WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 my-12"></div>
+
+            <div class="text-center text-sm text-white/70">
+                <p>&copy; 2024 SKYNet Soluciones Informáticas. Todos los derechos reservados.</p>
+                <p class="mt-2">Diseñado con 💙 por SKYNet | Innovación y Tecnología</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/2284945696" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-40">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-3.582 0-6.917-2.536-6.917-5.65C5.158 5.538 8.494 3 12.048 3c3.552 0 6.887 2.536 6.887 5.65 0 3.114-3.335 5.65-6.887 5.65z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Manejador para botones de Solicitar y Cotizar
+        document.querySelectorAll('button').forEach(btn => {
+            const text = btn.textContent.trim();
+            if (text.includes('Solicitar') || text.includes('Cotizar')) {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const requestType = text.includes('Solicitar') ? 'Solicitud' : 'Cotización';
+                    const serviceName = 'Redes y Conectividad';
+                    
+                    // Guardar en sessionStorage para la página de contacto
+                    sessionStorage.setItem('requestType', requestType);
+                    sessionStorage.setItem('serviceName', serviceName);
+                    
+                    // Ir a la página de contacto
+                    window.location.href = 'index.html#contacto';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes y Conectividad - SKYNet Soluciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="text-gray-200">
+    <header class="header-transparent shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between py-4">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img class="h-14 w-auto drop-shadow-xl rounded-lg" src="logo.png" alt="Logo">
+                </a>
+                <a href="index.html" class="btn-primary">← Volver</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="service-detail-hero relative" style="background-image:url('Redes.jpg'); background-size:cover; background-position:center;">
+            <div class="hero-overlay" aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(2,6,23,0.55), rgba(2,6,23,0.55));"></div>
+            <a href="index.html" class="back-button">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Volver
+            </a>
+            <div class="service-detail-content">
+                <h1 class="service-detail-title">Redes y Conectividad</h1>
+                <p class="service-detail-subtitle">Infraestructura de red profesional para tu negocio</p>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-24 bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="detail-section">
+                    <h2>Soluciones de Red Integral</h2>
+                    <p>Diseñamos, implementamos y mantenemos infraestructuras de red modernas, seguras y escalables que garantizan conectividad continua y rendimiento óptimo para tu empresa.</p>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Servicios de Redes</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                        <div>
+                            <h3>Infraestructura</h3>
+                            <ul>
+                                <li>Diseño de topología de red</li>
+                                <li>Instalación de cableado estructurado</li>
+                                <li>Configuración de switches y routers</li>
+                                <li>Instalación de access points WiFi</li>
+                                <li>VPN segura para acceso remoto</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Mantenimiento</h3>
+                            <ul>
+                                <li>Monitoreo 24/7 de la red</li>
+                                <li>Actualización de firmware</li>
+                                <li>Análisis de ancho de banda</li>
+                                <li>Resolución de problemas de conectividad</li>
+                                <li>Seguridad de perímetro</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Galería de Proyectos</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="Redes.jpg" onerror="this.src='https://placehold.co/400x250/1a1a1a/00BFFF?text=Infraestructura+Redes'" alt="Redes">
+                            <div class="gallery-overlay"><div class="gallery-text">Cableado Estructurado</div></div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://placehold.co/400x250/1a1a1a/00BFFF?text=WiFi+Enterprise" alt="WiFi">
+                            <div class="gallery-overlay"><div class="gallery-text">WiFi Profesional</div></div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://placehold.co/400x250/1a1a1a/00BFFF?text=Seguridad+Red" alt="Seguridad">
+                            <div class="gallery-overlay"><div class="gallery-text">Seguridad de Red</div></div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://placehold.co/400x250/1a1a1a/00BFFF?text=Conexiones" alt="Conexiones">
+                            <div class="gallery-overlay"><div class="gallery-text">Conexiones Redundantes</div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Casos de Éxito</h2>
+                    <div class="case-study-card">
+                        <div class="case-study-title">🏢 Corporativo Multi-sede</div>
+                        <div class="case-study-description"><strong>Problema:</strong> 3 sucursales sin conectividad integrada.<br><strong>Solución:</strong> Red VPN y cableado estructurado en todas las sedes.<br><strong>Resultado:</strong> Comunicación fluida, 99.9% de disponibilidad.</div>
+                    </div>
+                </div>
+
+                <div class="detail-section bg-gradient-to-r from-accent-blue/10 to-accent-purple/10 p-12 rounded-xl border border-accent-blue/20">
+                    <h2 style="margin-top: 0;">Planes de Red</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                        <div class="text-center">
+                            <h3 class="text-accent-blue text-2xl font-bold mb-2">Pequeño</h3>
+                            <p class="text-2xl font-bold mb-4">$1,999 MXN</p>
+                            <p class="text-sm mb-4">Hasta 10 equipos</p>
+                            <button class="btn-primary" onclick="window.location='index.html#contacto'">Solicitar</button>
+                        </div>
+                        <div class="text-center border-l border-r border-accent-blue/30">
+                            <h3 class="text-accent-blue text-2xl font-bold mb-2">Mediano</h3>
+                            <p class="text-2xl font-bold mb-4">$4,999 MXN</p>
+                            <p class="text-sm mb-4">Hasta 50 equipos</p>
+                            <button class="btn-primary" onclick="window.location='index.html#contacto'">Solicitar</button>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-accent-blue text-2xl font-bold mb-2">Empresarial</h3>
+                            <p class="text-2xl font-bold mb-4">Consultar</p>
+                            <p class="text-sm mb-4">Solución Personalizada</p>
+                            <button class="btn-primary" onclick="window.location='index.html#contacto'">Consultar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-16">
+                    <h2 style="margin-bottom: 10px;">¿Necesitas conectividad profesional?</h2>
+                    <a href="index.html#contacto" class="btn-primary inline-block px-12 py-4 text-lg">Solicitar Consulta</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-950 border-t border-accent-blue/10 mt-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center text-gray-400">
+                <p>&copy; 2024 SKYNet Soluciones Informáticas.</p>
+                <a href="index.html" class="text-accent-blue hover:underline mt-4 inline-block">← Volver al sitio principal</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5212284945696?text=Hola,%20estoy%20interesado%20en%20Redes%20y%20Conectividad" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+        <svg class="w-9 h-9" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zM6.597 20.193c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 4.315 1.919 6.066l-1.225 4.485 4.635-1.218z"/></svg>
+    </a>
+</body>
+</html>
+

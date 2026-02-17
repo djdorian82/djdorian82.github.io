@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software y Sistemas Operativos - Skynet Soluciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'skynet-dark': '#0A2463',
+                        'skynet-accent': '#38BDF8',
+                        'skynet-light': '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-slate-800 bg-white font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-skynet-dark">
+                <a href="index.html">Soluciones Informáticas</a>
+            </div>
+            <nav class="flex gap-8 items-center">
+                <a href="index.html#servicios" class="text-skynet-dark font-bold hover:text-skynet-accent transition">Servicios</a>
+                <a href="index.html#contacto" class="bg-skynet-accent text-skynet-dark px-6 py-2 rounded-lg font-semibold hover:bg-sky-400 transition">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative py-20 text-white overflow-hidden">
+            <!-- Background Image with Overlay -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute inset-0 bg-gradient-to-br from-skynet-dark/90 to-skynet-accent/80 z-10"></div>
+                <img src="Software.jpg" alt="Software" class="w-full h-full object-cover" onerror="this.style.display='none'">
+            </div>
+            
+            <div class="relative z-20 max-w-4xl mx-auto px-6 text-center">
+                <h1 class="text-5xl font-bold mb-6">Software y Sistemas Operativos</h1>
+                <p class="text-xl text-white/90">Instalación, optimización y soporte de software empresarial</p>
+            </div>
+        </section>
+
+        <!-- Description Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-8">Soluciones de Software Profesionales</h2>
+                <p class="text-lg text-slate-700 mb-6">
+                    Ofrecemos instalación, configuración y mantenimiento de sistemas operativos y software empresarial. 
+                    Nos especializamos en Windows, Linux y aplicaciones administrativas que impulsan la productividad de tu negocio.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">🖥️ Sistemas Operativos</h3>
+                        <p class="text-slate-600">Instalación limpia y optimizada de Windows, Linux y macOS.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">🛡️ Seguridad</h3>
+                        <p class="text-slate-600">Antivirus, firewalls y herramientas de protección actualizadas.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">📊 Software Administrativo</h3>
+                        <p class="text-slate-600">Implementación de sistemas ERP, CRM y herramientas de gestión.</p>
+                    </div>
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-3">💼 Suite Office</h3>
+                        <p class="text-slate-600">Microsoft Office, LibreOffice y otras herramientas ofimáticas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Included -->
+        <section class="py-20 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-12">Servicios Disponibles</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">💾 Instalación SO</h3>
+                        <p class="text-slate-600">Instalación limpia de sistemas operativos con todas las actualizaciones de seguridad.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🔧 Configuración</h3>
+                        <p class="text-slate-600">Configuración personalizada según las necesidades de tu negocio.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🔄 Actualización Software</h3>
+                        <p class="text-slate-600">Actualización de SO y aplicaciones sin pérdida de datos.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🎓 Capacitación</h3>
+                        <p class="text-slate-600">Entrenamiento para usuarios en nuevos sistemas y aplicaciones.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">🆘 Soporte Técnico</h3>
+                        <p class="text-slate-600">Soporte técnico continuo y resolución de problemas.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 border border-slate-200">
+                        <h3 class="text-xl font-bold text-skynet-dark mb-4">📦 Licensing</h3>
+                        <p class="text-slate-600">Gestión de licencias y cumplimiento normativo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plans -->
+        <section class="py-20 bg-white">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-4 text-center">Planes de Software</h2>
+                <p class="text-lg text-slate-600 text-center mb-12">Soluciones escalables para cualquier tamaño de negocio</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Plan 1: Básico -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Básico</h3>
+                        <p class="text-slate-600 mb-6">1-10 usuarios</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">$1,200</span>
+                            <p class="text-slate-600 text-sm mt-2">por instalación</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Instalación SO
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Antivirus
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Drivers actuales
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Soporte 30 días
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Solicitar
+                        </button>
+                    </div>
+
+                    <!-- Plan 2: Profesional (Destacado) -->
+                    <div class="bg-white rounded-2xl p-8 border-2 border-skynet-accent shadow-xl transform md:scale-105">
+                        <div class="bg-skynet-accent text-white px-4 py-2 rounded-lg text-center mb-4 text-sm font-semibold">
+                            MÁS POPULAR
+                        </div>
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Profesional</h3>
+                        <p class="text-slate-600 mb-6">11-50 usuarios</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">$3,500</span>
+                            <p class="text-slate-600 text-sm mt-2">por proyecto</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Todo lo anterior
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Software administrativo
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Configuración personalizada
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Soporte 90 días
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Solicitar
+                        </button>
+                    </div>
+
+                    <!-- Plan 3: Empresarial -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-xl transition">
+                        <h3 class="text-2xl font-bold text-skynet-dark mb-2">Empresarial</h3>
+                        <p class="text-slate-600 mb-6">50+ usuarios</p>
+                        <div class="mb-8">
+                            <span class="text-4xl font-bold text-skynet-dark">Personalizado</span>
+                            <p class="text-slate-600 text-sm mt-2">Según requerimientos</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Solución completa
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Integración personalizada
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Soporte 24/7
+                            </li>
+                            <li class="flex items-center text-slate-700">
+                                <span class="text-skynet-accent mr-3">✓</span>
+                                Capacitación completa
+                            </li>
+                        </ul>
+                        <button class="w-full bg-skynet-accent text-skynet-dark py-3 rounded-lg font-semibold hover:bg-sky-400 transition">
+                            Cotizar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="py-20 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-4xl font-bold text-skynet-dark mb-12">Por qué elegirnos</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">🎯 Expertos Certificados</h3>
+                        <p class="text-slate-700">Técnicos certificados en Microsoft, Linux, y otras plataformas.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">⚡ Instalación Rápida</h3>
+                        <p class="text-slate-700">Implementación eficiente sin afectar operaciones existentes.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">🔒 Seguridad Garantizada</h3>
+                        <p class="text-slate-700">Configuración segura con protección contra amenazas modernas.</p>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-skynet-dark">📞 Soporte Continuo</h3>
+                        <p class="text-slate-700">Soporte técnico disponible durante y después de la implementación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-gradient-to-br from-skynet-dark to-skynet-accent py-20 text-white">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-6">¿Necesitas optimizar tu software?</h2>
+                <p class="text-xl text-white/90 mb-8">Contacta con nuestro equipo para una evaluación gratuita</p>
+                <a href="index.html#contacto" class="inline-block bg-white text-skynet-dark px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">
+                    Solicitar Consulta
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-skynet-dark text-white py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Skynet Soluciones</h3>
+                    <p class="text-white/80">Soluciones tecnológicas integrales para tu negocio.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Servicios</h3>
+                    <ul class="space-y-2 text-white/80">
+                        <li><a href="servicio-diseno-web.html" class="hover:text-skynet-accent">Diseño Web</a></li>
+                        <li><a href="servicio-software.html" class="hover:text-skynet-accent">Software</a></li>
+                        <li><a href="servicio-mantenimiento.html" class="hover:text-skynet-accent">Mantenimiento</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2 text-white/80">
+                        <li><a href="#" class="hover:text-skynet-accent">Privacidad</a></li>
+                        <li><a href="#" class="hover:text-skynet-accent">Términos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contacto</h3>
+                    <p class="text-white/80">
+                        📞 +52 2284945696<br>
+                        📧 djdorian82@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-white/20 pt-8 text-center text-white/60">
+                <p>&copy; 2026 Skynet Soluciones. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/2284945696" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-40">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-3.582 0-6.917-2.536-6.917-5.65C5.158 5.538 8.494 3 12.048 3c3.552 0 6.887 2.536 6.887 5.65 0 3.114-3.335 5.65-6.887 5.65z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Manejador para botones de Solicitar y Cotizar
+        document.querySelectorAll('button').forEach(btn => {
+            const text = btn.textContent.trim();
+            if (text.includes('Solicitar') || text.includes('Cotizar')) {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const requestType = text.includes('Solicitar') ? 'Solicitud' : 'Cotización';
+                    const serviceName = 'Asesoría y Software';
+                    
+                    // Guardar en sessionStorage para la página de contacto
+                    sessionStorage.setItem('requestType', requestType);
+                    sessionStorage.setItem('serviceName', serviceName);
+                    
+                    // Ir a la página de contacto
+                    window.location.href = 'index.html#contacto';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
