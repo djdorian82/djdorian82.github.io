@@ -1,0 +1,39 @@
+# SKYNet Soluciones - robots.txt
+# Optimizado para indexación en motores de búsqueda
+
+User-agent: *
+Allow: /
+Allow: *.html
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.css
+Allow: *.js
+
+# Bloquear directorios innecesarios
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /temp/
+Disallow: /skynet-soluciones-main/
+
+# Crawl delay (respetar el servidor)
+Crawl-delay: 1
+
+# Velocidad de solicitudes
+Request-rate: 30/60
+
+# Sitemap
+Sitemap: https://skynetsolucionesinformaticas.com.mx/sitemap.xml
+
+# Especificar el agent de Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
